@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="logo.jpg" />
+    <title>MuscleFactory</title>
+    <!-- Boostrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awsome Icons -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img style="width: 55px; height: 50px" src="logo.jpg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#heroSlider">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Connect</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-brand">supplements</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Slider -->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+          <div
+            class="container h-100 d-flex align-items-center justify-content-center"
+          >
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO Muscle Factory</h6>
+                <h1 class="display-1 my-3 fw-bold text-white">
+                  Way To Be Strong.
+                </h1>
+                <a href="#" class="btn btn-brand"> Check your Slot</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item text-center bg-cover vh-100 slide-2">
+          <div
+            class="container h-100 d-flex align-items-center justify-content-center"
+          >
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO Muscle Factory</h6>
+                <h1 class="display-1 my-3 fw-bold text-white">
+                  No Pain No Gain!
+                </h1>
+                <a href="#" class="btn btn-brand">Check your Slot</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#heroSlider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#heroSlider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-5">
+            <img src="about.jpg" alt="" />
+          </div>
+          <div class="col-lg-5">
+            <h1>About us</h1>
+            <div class="divider my-4"></div>
+            <p>
+              Muscle Factory was founded in 2015 for providing high-quality gym
+              training at great prices.
+            </p>
+            <p>
+              Instead of being just another gym, our founders wanted to be the
+              best in the industry and set their minds to doing so! Over the
+              last few years Muscle Factory has grown into one of kerala's
+              largest fitness center, helping thousands of customers live
+              longer, happier and healthier lives.
+            </p>
+            <a href="#" class="btn btn-brand">Explore More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Our Gallery</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-all"
+            role="tabpanel"
+            aria-labelledby="pills-all-tab"
+            tabindex="0"
+          >
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery1.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery2.avif" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery4.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery5.jfif" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery6.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery9.jpg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="gallery8.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1 class="text-white">Why to choose us?</h1>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="fa-solid fa-dumbbell"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Best Gym</h4>
+              <p class="text-white">
+                WEe are providing one of the best gym at great prize.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Best Trainers</h4>
+              <p class="text-white">
+                We have Best Certified trainers including personal training.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="fa-solid fa-dumbbell"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Equipments</h4>
+              <p class="text-white">
+                We have well maintained modern equpiments.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature p-4 text-center">
+              <div class="feature-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+              <p class="text-white">
+                Highly rated gym in all platforms by our happy clients.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Our Team Members</h1>
+            <p>Our team members are well experienced certified trainers.</p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="team-member px-4 py-5 border shadow-on-hover text-center"
+            >
+              <img src="trainer2.webp" alt="" />
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Sajin</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="team-member px-4 py-5 border shadow-on-hover text-center"
+            >
+              <img src="trainer3.jfif" alt="" />
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Dileep</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="team-member px-4 py-5 border shadow-on-hover text-center"
+            >
+              <img src="trainer1.png" alt="" />
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Ragav</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div
+              class="team-member px-4 py-5 border shadow-on-hover text-center"
+            >
+              <img src="trainer4.jfif" alt="" />
+              <div class="team-member-content">
+                <h4 class="mb-0 mt-4">Rahul</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section id="reviews" class="bg-cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1 class="text-white">Our Client Saying</h1>
+          </div>
+        </div>
+
+        <div id="reviewSlider" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#reviewSlider"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#reviewSlider"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white p-5 text-center">
+                    <p class="mb-0">
+                      This gym is amazing. Amazing facility, top equipment and
+                      great environment. Good service with friendly staff and
+                      super clean and comfortable gym for everyone from
+                      beginners to professional athletes to train at.
+                    </p>
+                    <div class="person mt-4">
+                      <img src="testi1.jpeg" alt="" />
+                      <h4 class="mb-0 mt-2">Anakh</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white p-5 text-center">
+                    <p class="mb-0">
+                      Fitness within is the cleanest and most organized gym I’ve
+                      ever seen! I have no words to say how wonderful they are!
+                      And they makes you feel super comfortable, Kaitlyn helps
+                      you eat better and healthy! Fitness Within has a team of
+                      excellence! They have a place for anyone, a plan for any
+                      goal, everything is very flexible! I am extremely
+                      satisfied with Fitness Within and the entire team.
+                    </p>
+                    <div class="person mt-4">
+                      <img src="testi2.avif" alt="" />
+                      <h4 class="mb-0 mt-2">Heera</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#reviewSlider"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#reviewSlider"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation -->
+    <section id="reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Let us Connect</h1>
+            <p>You can clear any of your concers. Feel free to message.</p>
+          </div>
+        </div>
+        <form action="#" class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="row g-3">
+              <div class="form-group col-md-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full name"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Date" />
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Time" />
+              </div>
+              <div class="form-group col-md-12">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="form-group text-center col-md-12">
+                <a href="#" class="btn btn-brand">Send Message</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-cover">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <img src="./assets/images/Qrispy_white.svg" class="mb-4" alt="" />
+              <p>"THE HARD DAYS ARE WHAT MAKE YOU STRONGER!!"</p>
+              <div class="social-links">
+                <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+                <a href="#"><i class="ri-google-play-fill"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 ms-auto">
+              <h6 class="text-white mb-4">CONTACT</h6>
+              <p class="mb-1">P:(91) 9283 472687</p>
+              <p class="mb-1">E:musclefactory@gmail.com</p>
+              <p class="mb-0">Near Kate Mark, Malikampeedika, Kerala 683511</p>
+            </div>
+            <div class="col-lg-3">
+              <h6 class="text-white mb-4">OPENING HOURS</h6>
+              <p class="mb-1">Monday-Friday : 05:00am - 10:30pm</p>
+              <p>saturday-Sunday : 06:00am - 11:00pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row gy-3 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">&#169; All rights reserved</p>
+            </div>
+            <div class="col-auto"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
